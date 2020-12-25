@@ -6,4 +6,4 @@ def home_view(request,*args,**kargs):
     print(request)
     print(args, kargs)
     # return HttpResponse("HEHEHEHE")
-    return render(request,'home.html',{})
+    return render(request, 'home.html', {})
