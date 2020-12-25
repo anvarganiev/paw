@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa76991-691f-4291-a721-49ea70d8ffa5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chats/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/chats/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/customers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/customers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datadump/importdata.session.sql" beforeDir="false" afterPath="$PROJECT_DIR$/datadump/importdata.session.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paw" beforeDir="false" afterPath="$PROJECT_DIR$/paw" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paw/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/paw/.idea/dictionaries/.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/paw/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
@@ -41,6 +49,9 @@
       <change beforePath="$PROJECT_DIR$/paw/requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/paw/templates/home.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/paw/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/programers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/programers/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/programers/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +64,7 @@
         <entry key="$PROJECT_DIR$" value="anvar" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/paw" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lvZDpd90hfF0oPPQ4dbHhcYhXo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -201,7 +212,8 @@
       <updated>1608479408321</updated>
       <workItem from="1608728214184" duration="6053000" />
       <workItem from="1608898124329" duration="2086000" />
-      <workItem from="1608904016691" duration="1303000" />
+      <workItem from="1608904016691" duration="1781000" />
+      <workItem from="1608905834124" duration="3677000" />
     </task>
     <servers />
   </component>
@@ -214,12 +226,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="github/main" />
                       </list>
                     </value>
                   </entry>
@@ -233,8 +250,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/paw$runsync.coverage" NAME="runsync Coverage Results" MODIFIED="1608907116141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/paw$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1608900246473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/paw$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1608904868219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/paw$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1608908540788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/paw$migrate.coverage" NAME="migrate Coverage Results" MODIFIED="1608900241505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

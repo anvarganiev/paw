@@ -1,7 +1,14 @@
+
+-- если кто-то что-то сломает в записях в бд, то вот тут есть команды для взятия данных из дампов
+
+
+
 COPY programers_skill
 FROM '/home/omnuse/Projects/paw/datadump/skills'
 DELIMITER ','
 CSV;
+
+-- .import datadump/skills programers_skill --csv
 
 -- COPY auth_user (
 --     password,

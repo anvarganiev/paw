@@ -30,9 +30,6 @@ class SoloProgramer(models.Model):
 
     contact_info = models.CharField(max_length=200, blank=True, null=True)  # TODO autoinit
 
-    def first_name(self):
-        return self.user.first_name
-
     def full_name(self):
         return self.user.get_full_name()
 
@@ -40,7 +37,7 @@ class SoloProgramer(models.Model):
         return list(self.skills.all())
 
     def __str__(self):
-        return f'{self.user.id} : {self.full_name()}'
+        return f'{self.user.id} {self.full_name()}'
 
 
 class SoloProgSkill(models.Model):
@@ -65,11 +62,20 @@ class Team(models.Model):
         through_fields=('team', 'programer'),
     )
 
+    skills = models.ManyToManyField(
+        Skill,
+        through='TeamSkill',
+        through_fields=('team', 'skill'),
+    )
+
     def __str__(self):
         return f"{self.id} {self.name}"
 
     def member_list(self):
-        return list(self.members.all())  #
+        return list(self.members.all())
+
+    def skill_list(self):
+        return list(self.skills.all())
 
 
 class TeamSkill(models.Model):

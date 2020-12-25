@@ -4,12 +4,12 @@ import programers.models as my_models
 
 @admin.register(my_models.SoloProgramer)
 class SoloProgramerAdmin(admin.ModelAdmin):
-    list_display = [field.name for field in my_models.SoloProgramer._meta.fields]
+    list_display = [field.name for field in my_models.SoloProgramer._meta.fields] + ['skill_list']
 
 
 @admin.register(my_models.Team)
 class TeamAdmin(admin.ModelAdmin):
-    list_display = [field.name for field in my_models.Team._meta.fields]
+    list_display = [field.name for field in my_models.Team._meta.fields] + ['member_list', 'skill_list']
 
 
 @admin.register(my_models.Membership)

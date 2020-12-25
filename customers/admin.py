@@ -4,7 +4,7 @@ import customers.models as my_models
 
 @admin.register(my_models.Customer)
 class CustomerAdmin(admin.ModelAdmin):
-    list_display = [field.name for field in my_models.Customer._meta.fields]
+    list_display = [field.name for field in my_models.Customer._meta.fields] + ['full_name', 'skill_list']
 
 
 @admin.register(my_models.CustomerSkill)
