@@ -4,7 +4,7 @@ Project Auction of KPFU
 
 Instalation
 ------------
-	git clone https://github.com/almazgaliev/paw
+	git clone https://github.com/anvarganiev/paw
     
 Requirements
 ------------
