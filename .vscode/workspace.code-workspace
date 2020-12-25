@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "sqltools.connections": [
+            {
+                "previewLimit": 50,
+                "server": "localhost",
+                "port": 5432,
+                "driver": "PostgreSQL",
+                "name": "a",
+                "database": "paw_db",
+                "username": "omnuse",
+                "password": "00123"
+            }
+        ]
+    }
+}

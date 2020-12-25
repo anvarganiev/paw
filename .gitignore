@@ -1,0 +1,9 @@
+*.pyc
+__pycache__/
+e.txt
+/migrations/
+/.idea/
+/.vscode/
+# virtual env path
+/djangoenv/
+/venv/
