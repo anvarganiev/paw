@@ -7,3 +7,4 @@ e.txt
 # virtual env path
 /djangoenv/
 /venv/
+settings.py

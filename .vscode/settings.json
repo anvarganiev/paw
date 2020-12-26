@@ -4,5 +4,17 @@
     "python.linting.banditEnabled": false,
     "python.linting.pylamaEnabled": false,
     "python.linting.pycodestyleEnabled": false,
-    "python.linting.flake8Enabled": true
+    "python.linting.flake8Enabled": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "connection1",
+            "database": "paw_db",
+            "username": "postgres",
+            "password": "123"
+        }
+    ]
 }

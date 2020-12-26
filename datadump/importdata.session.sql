@@ -4,7 +4,7 @@
 
 
 COPY programers_skill
-FROM '/home/omnuse/Projects/paw/datadump/skills'
+FROM '/home/borismarvin/Рабочий стол/paw/datadump/skills'
 DELIMITER ','
 CSV;
 
